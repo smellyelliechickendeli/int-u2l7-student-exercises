@@ -12,21 +12,37 @@
 
 /* 3. Recheck the ratio now. Afterwards, go to the HTML file.*/
 
+.navbar { 
+    border: 2px solid grey;
+    padding: 7px;
+    ;}
 body {
-    background-color: #d93f3f;
-    color: #eb2626;
+    background-color: #ffffff;
+    color: #eb4a4a;
+    font-size: 105%;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-inline:2%;
+}
+.title {
+    -webkit-text-stroke: 1.5px #7d0707;
+    filter: drop-shadow(-4px 4px 0px rgba(118, 37, 37, 0.5));
 }
 
 
 .food-pic {
-    width: 200px;
+    width: 250px;
+    margin: 1%;
+    border:maroon;
+    border-width: 4px;
+
 }
 
 .title {
     text-align: center;
     color: #eb2626;
-    border: #eb2626 solid 5px;
+    background-color: #f1dede;
     border-radius: 30px;
-    font-family: 'Italianno', cursive;
-    font-size: 90px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 69px;
+    font-style: italic;
 }
